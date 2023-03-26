@@ -36,12 +36,11 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-              <AiOutlineMail />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-              <BsFillPersonLinesFill />
-            </div>
+            <a href='mailto:haniya.siddiqui124@gmail.com'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                <AiOutlineMail />
+              </div>
+            </a>
           </div>
         </div>
       </div>

@@ -50,14 +50,11 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <BsFillPersonLinesFill />
+                  <a href='mailto:haniya.siddiqui124@gmail.com'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                      <AiOutlineMail />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
