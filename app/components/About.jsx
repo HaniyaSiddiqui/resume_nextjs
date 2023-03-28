@@ -26,7 +26,7 @@ const About = () => {
             projects.I&apos;m now spending my time in building projects with
             Nextjs 13 by using Tailwind Css and learning flex side by side.
           </p>
-          <Link href='/#projects'>
+          <Link href='#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects
             </p>

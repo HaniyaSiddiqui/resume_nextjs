@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import chakraImg from "../../public/assets/projects/chakraImg.png";
+import panaverseImg from "../../public/assets/projects/panaverse_clone.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,6 +19,13 @@ const Projects = () => {
             projectUrl='https://chakra-ui-pricing-website-duw83qhra-haniyasiddiqui.vercel.app/'
             backgroundImg={chakraImg}
             tech='Chakra'
+          />
+
+          <ProjectItem
+            title='Panaverse Clone'
+            projectUrl='https://panaverse-dao-tailwind-css.vercel.app'
+            backgroundImg={panaverseImg}
+            tech='Tailwind CSS'
           />
         </div>
       </div>
