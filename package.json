@@ -1,6 +1,6 @@
 {
-  "name": "resume",
-  "version": "0.1.0",
+  "name": "resume_2",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
