@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import chakraImg from "../../public/assets/projects/chakraImg.png";
-import panaverseImg from "../../public/assets/projects/panaverse_clone.jpg";
+import panaverseImg from "../../public/assets/projects/panaverse_clone.JPG";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
