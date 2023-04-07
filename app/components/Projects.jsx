@@ -3,6 +3,10 @@ import Link from "next/link";
 import React from "react";
 import chakraImg from "../../public/assets/projects/chakraImg.png";
 import panaverseImg from "../../public/assets/projects/panaverseclone.jpg";
+import panaverseDaoImg from "../../public/assets/projects/panaversedao.JPG";
+
+import piaicImg from "../../public/assets/projects/piaicclone.png";
+
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,7 +24,19 @@ const Projects = () => {
             backgroundImg={chakraImg}
             tech='Chakra'
           />
+          <ProjectItem
+            title='Panaverse Dao'
+            projectUrl='https://panaverse-dao-by-hanniya.vercel.app/'
+            backgroundImg={panaverseDaoImg}
+            tech='Chakra UI'
+          />
 
+          <ProjectItem
+            title='PIAIC Clone'
+            projectUrl='https://piaic-clone.vercel.app/'
+            backgroundImg={piaicImg}
+            tech='Tailwind CSS'
+          />
           <ProjectItem
             title='Panaverse Clone'
             projectUrl='https://panaverse-dao-tailwind-css.vercel.app'
