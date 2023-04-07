@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import chakraImg from "../../public/assets/projects/chakraImg.png";
 import panaverseImg from "../../public/assets/projects/panaverseclone.jpg";
-import panaverseDaoImg from "../../public/assets/projects/panaversedao.JPG";
+import panaverseDaoImg from "../../public/assets/projects/panaversedao.jpg";
 
 import piaicImg from "../../public/assets/projects/piaicclone.png";
 
